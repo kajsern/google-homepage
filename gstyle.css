@@ -29,9 +29,12 @@ html, body{
 .bar{
     width: 450px;
 }
-.buttons{
+.buttonwrapper{
+
+}
+.button{
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 50px;
 }
 img {
     display: block;

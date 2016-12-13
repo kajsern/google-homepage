@@ -1,0 +1,44 @@
+html, body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+.container{
+    min-height: 100%;
+    position:relative;
+}
+.header{
+    background: gray;
+    height: 20px;
+    padding: 10px;
+}
+.main {
+    margin-top: 100px;
+    background: red;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forms{
+    background: black;
+}
+.searchbar{
+    margin-top: 20px;
+    text-align: center;
+}
+.bar{
+    width: 450px;
+}
+.buttons{
+    padding: 10px;
+    margin-left: 30px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    height: 160px; width: 300px;
+}
+.footer
+{
+    background: gray;
+}

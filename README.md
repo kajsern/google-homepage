@@ -1,0 +1,1 @@
+For a first real html/css project I will make the Google homepage. Not in working order obviously but I will give me a grasp of how things align and move on a page.

@@ -29,30 +29,42 @@ html, body{
 }
 .main {
     margin-top: 100px;
-    background: red;
     width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 .forms{
-    background: black;
 }
 .searchbar{
     margin-top: 20px;
     text-align: center;
 }
 .bar{
-    width: 450px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid white;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15), 0 2px 2px 0 rgba(0,0,0,0.15);
+
 }
 .buttonwrapper{
-    text-align: center;
-    background: blue;
-    width: 400px;
-}
+    margin-left: 160px;}
 .button{
-    background: pink;
-    padding: 10px;
-    margin-left: 50px;
+    margin: 11px 4px;
+    border-radius:2px;
+    color: #757575;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    background:#f2f2f2;
+    border:1px solid #f2f2f2;
+    padding: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.button:hover{
+    color:black;
+    border:1px solid gray;
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.15), 0 2px 2px 0 rgba(0,0,0,0.15);
 }
 img {
     display: block;

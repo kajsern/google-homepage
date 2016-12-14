@@ -8,9 +8,24 @@ html, body{
     position:relative;
 }
 .header{
-    background: gray;
-    height: 20px;
     padding: 10px;
+    line-height: 42px;
+    text-align: right;
+    height: 42px;
+    vertical-align: middle;
+}
+.headerknapp{
+    opacity:0.75;
+    font-family:arial,sans-serif;
+    font-size: 13px;
+    float: right;
+    width:40px;
+    margin-right: 20px;
+}
+#toppictures{
+    height: 40px;
+    width: 135px;
+    float:right;
 }
 .main {
     margin-top: 100px;
@@ -30,9 +45,12 @@ html, body{
     width: 450px;
 }
 .buttonwrapper{
-
+    text-align: center;
+    background: blue;
+    width: 400px;
 }
 .button{
+    background: pink;
     padding: 10px;
     margin-left: 50px;
 }
